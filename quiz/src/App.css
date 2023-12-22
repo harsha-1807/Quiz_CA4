@@ -1,0 +1,140 @@
+/* Question page style  */
+
+*{ 
+    transition: background-color 0.4s;
+}
+body{
+    background-color: #CDC09C !important;
+
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+
+}
+.header button{
+    cursor: pointer;
+}
+.theme{
+    background-color: rgba(0, 0, 0, 0.48);
+    border-radius: 50px;
+    border: none;
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    
+
+}
+#Question{
+    /* color: #09C3AB; */
+    /* font-family: Inter; */
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.QuestionBox1{
+    height: 70vh;
+    width: 70vw;
+    background: #E6DCB9;
+    box-shadow: 6px 6px 18.8px 6px rgba(0, 0, 0, 0.25);
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+
+}
+#options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+#options button{
+    width: 60vw;
+    height: 5vh;
+    margin: 1vw;
+    border-radius: 23px;
+    border: 1px solid #000;
+    background: #A9D7D1;
+}
+
+.highlight button{
+    height: 4vh;
+    margin: 1vw;
+    /* width: vw; */
+    border-radius: 40px;
+    border: 1px solid #000;
+    background-color: #CFAB91;
+    cursor: pointer;
+}
+/* style for resultpage  */
+.resultpage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header2{
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    margin: 2vw;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    /* text-align: center; */
+
+}
+
+.resultBox{
+    height: 30vh;
+    width: 40vw;
+    background-color: #E6DCB9;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 18px;
+    /* justify-content: center; */
+
+}
+
+h2{
+    color: #000;
+font-family: Inter;
+font-size: 4vh;
+font-style: normal;
+font-weight: 600;
+/* line-height: normal; */
+}
+
+.score{
+    color: #000;
+    /* font-family: Inter; */
+    font-size: 3vw;
+    font-weight: 500;
+    
+}
+
+#TryBtn{
+    width: 20vw;
+    align-self: center;
+    margin: 20px;
+    height: 5vh;
+    border-radius: 20px;
+    background-color: #A9D7D1;
+}
